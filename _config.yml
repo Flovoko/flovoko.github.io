@@ -7,9 +7,7 @@ plugins:
 - jekyll-remote-theme
 title: Flovoko's HQ
 description: Flovoko's HQ
-author:
-  name: Florian von Koß
-  email: "vonkossf@gmail.com"
+author: Florian von Koß
 minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/Flovoko" }
