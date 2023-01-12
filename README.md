@@ -1,6 +1,4 @@
 **My Projects**
 ---
 
-**SimpleWebServer**
-
-[SWS]()
+[**SimpleWebServer**]()
