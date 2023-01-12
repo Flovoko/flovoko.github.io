@@ -2,7 +2,7 @@ theme: minima
 minima:
   skin: dark
 header_pages:
- - README.md
+- README.md
 plugins:
 - jekyll-remote-theme
 title: Flovoko's HQ
