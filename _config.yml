@@ -1,5 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
+show_downloads: true
 title: Flovokos's homepage
 description: Bookmark this to keep an eye on my project updates!
