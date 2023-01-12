@@ -1,4 +1,6 @@
 theme: minima
+minima:
+  skin: dark
 plugins:
 - jekyll-remote-theme
 title: Flovoko's HQ
