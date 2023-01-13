@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to bottom, rgb(0, 172, 0), green);
+    background-image: linear-gradient(to bottom, #66cdaa, green);
     text-align: center;
     height: 1080px;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +18,7 @@ body{
 
 .title{
     font-size: 35pt;
-    color: rgb(0, 172, 0);
+    color: #66cdaa;
     line-height: 0.2;
     font-family: Forte;
 }
@@ -27,7 +27,7 @@ body{
     font-size: 15pt;
     height: 30pt;
     width: 150pt;
-    border: solid rgb(0, 172, 0) 3px;
+    border: solid #66cdaa 3px;
     font-weight: 700;
     border-radius: 20pt;
     background-color: transparent;
@@ -36,6 +36,6 @@ body{
 }
 
 .button:hover{
-    background-color: rgb(0, 172, 0);
+    background-color: #66cdaa;
     color: black;
 }
