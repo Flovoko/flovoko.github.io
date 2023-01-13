@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to bottom, cornflowerblue, rgb(12, 65, 157));
+    background-image: linear-gradient(to bottom, rgb(0, 172, 0), green);
     text-align: center;
     height: 1080px;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +18,7 @@ body{
 
 .title{
     font-size: 35pt;
-    color: cornflowerblue;
+    color: rgb(0, 172, 0);
     line-height: 0.2;
     font-family: Forte;
 }
@@ -27,15 +27,15 @@ body{
     font-size: 15pt;
     height: 30pt;
     width: 150pt;
-    border: solid cornflowerblue 3px;
+    border: solid rgb(0, 172, 0) 3px;
     font-weight: 700;
     border-radius: 20pt;
     background-color: transparent;
-    color: cornflowerblue;
+    color: rgb(0, 172, 0);
     transition: 0.5s ease;
 }
 
 .button:hover{
-    background-color: cornflowerblue;
+    background-color: rgb(0, 172, 0);
     color: black;
 }
