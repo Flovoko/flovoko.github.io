@@ -1,41 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/forte');
+
 body{
     background-image: linear-gradient(to bottom, #66cdaa, #5BB899);
     text-align: center;
-    height: 1080px;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.titlebar{
-    position: absolute;
-    top: -26px;
-    left: 0;
-    height: 125pt;
-    width: 100%;
-    background-color: black;
-    border-radius: 23pt;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.648);
-}
-
 .title{
+    position: relative;
+    top: 35vh;
     font-size: 35pt;
-    color: #66cdaa;
+    color: #ffffff;
     line-height: 0.2;
-    font-family: Forte;
+    font-family: 'Forte', sans-serif;
+    text-shadow: 2px 2px 5px white;
+    transition: .5s ease;
 }
 
 .button{
-    font-size: 15pt;
-    height: 30pt;
-    width: 150pt;
-    border: solid #66cdaa 3px;
-    font-weight: 700;
-    border-radius: 20pt;
-    background-color: transparent;
+    position: relative;
+    top: 35vh;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
     color: #66cdaa;
-    transition: 0.5s ease;
+    background-color: white;
+    border: white solid 4px;
+    border-radius: 7px;
+    transition: .5s ease;
 }
 
 .button:hover{
+    border: #66cdaa solid 4px;
+    color: white;
     background-color: #66cdaa;
-    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foot{
+    position: relative;
+    top: 88vh;
+    font-family: 'Forte', sans-serif;
+    text-shadow: 2px 2px 5px white;
+    color: white;
+    transition: .5s ease;
 }
