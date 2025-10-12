@@ -1,15 +1,18 @@
 @import url('https://fonts.cdnfonts.com/css/forte');
 
 body {
-  background-image: linear-gradient(to bottom, #66cdaa, #5BB899);
-  height: 100vh;
   margin: 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  color: #e6eef8;
+  overflow: hidden;
+  position: relative;
+  transition: background 1s ease;
 }
 
 .container {
