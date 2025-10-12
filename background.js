@@ -63,14 +63,13 @@ function draw(t) {
     if (p.y > h + p.r) p.y = -p.r;
 
     const gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r);
-    gradient.addColorStop(0, 'rgba(255,255,255,0.5)');
-    gradient.addColorStop(0.3, 'rgba(255,255,255,0.2)');
-    gradient.addColorStop(1, 'rgba(255,255,255,0.05)');
+    gradient.addColorStop(0, 'rgba(255,255,255,0.8)');
+    gradient.addColorStop(0.4, 'rgba(255,255,255,0.3)');
+    gradient.addColorStop(1, 'rgba(255,255,255,0)');
     ctx.fillStyle = gradient;
     ctx.beginPath();
     ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
     ctx.fill();
-
   }
 
   requestAnimationFrame(draw);
