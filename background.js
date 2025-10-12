@@ -1,6 +1,6 @@
 const CONFIG = {
   particleCount: 160,
-  particleSize: 60,
+  particleSize: 90,
   speed: 0.25,
 };
 
