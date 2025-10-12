@@ -4,6 +4,31 @@
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <title>flovoko - github.io</title>
+    <script>
+    function randomColor() {
+      return `hsl(${Math.floor(Math.random() * 360)}, ${60 + Math.random()*30}%, ${40 + Math.random()*20}%)`;
+    }
+
+    function generateBackground() {
+      const color1 = randomColor();
+      const color2 = randomColor();
+
+      document.body.style.background = `
+        radial-gradient(circle at 30% 30%, ${color1}33, transparent 70%),
+        radial-gradient(circle at 70% 70%, ${color2}33, transparent 70%),
+        linear-gradient(180deg, #0f1724 0%, #0b1220 100%)
+      `;
+
+      const buttons = document.querySelectorAll('.glass-btn--primary');
+      buttons.forEach(btn => {
+        btn.style.background = `${color1}40`;
+        btn.style.borderColor = `${color1}80`;
+      });
+
+      document.body.animate([{opacity:0.8},{opacity:1}], {duration:600,fill:'forwards'});
+    }
+    generateBackground();
+    </script>
 </head>
 <body>
   <div class="container">
