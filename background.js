@@ -11,9 +11,15 @@ function randomColor() {
   return `hsl(${h}, ${s}%, ${l}%)`;
 }
 
-const colorA = randomColor();
-const colorB = randomColor();
-const colorC = randomColor();
+function harmoniousColors() {
+  const baseHue = Math.floor(Math.random() * 360);
+  const color1 = `hsl(${baseHue}, 75%, 50%)`;
+  const color2 = `hsl(${(baseHue + 30) % 360}, 75%, 50%)`;
+  const color3 = `hsl(${(baseHue + 60) % 360}, 75%, 50%)`;
+  return [color1, color2, color3];
+}
+
+const [colorA, colorB, colorC] = harmoniousColors();
 
 const canvas = document.createElement('canvas');
 canvas.id = 'strw-bg';
