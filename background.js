@@ -62,10 +62,10 @@ function draw(t) {
     if (p.y < -p.r) p.y = h + p.r;
     if (p.y > h + p.r) p.y = -p.r;
 
-    const gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r * 0.8);
-    gradient.addColorStop(0, 'rgba(255,255,255,0.15)');
-    gradient.addColorStop(0.7, 'rgba(255,255,255,0.05)');
-    gradient.addColorStop(1, 'rgba(255,255,255,0)');
+    const gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r);
+    gradient.addColorStop(0, 'rgba(255,255,255,0.35)');
+    gradient.addColorStop(0.5, 'rgba(255,255,255,0.15)');
+    gradient.addColorStop(1, 'rgba(255,255,255,0.02)');
     ctx.fillStyle = gradient;
     ctx.beginPath();
     ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
