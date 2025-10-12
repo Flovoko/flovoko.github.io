@@ -66,7 +66,6 @@ body{
   transition: all 0.25s ease;
 }
 
-/* Hover and Active States */
 .glass-btn:hover {
   background: rgba(255, 255, 255, 0.18);
   border-color: rgba(255, 255, 255, 0.3);
@@ -79,7 +78,6 @@ body{
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Accent variants */
 .glass-btn--primary {
   background: rgba(124, 58, 237, 0.25);
   border-color: rgba(124, 58, 237, 0.4);
