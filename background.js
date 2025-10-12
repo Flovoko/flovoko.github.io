@@ -1,7 +1,7 @@
 const CONFIG = {
-  particleCount: 300,
-  particleSize: 70,
-  speed: 0.2,
+  particleCount: 160,
+  particleSize: 35,
+  speed: 0.25,
 };
 
 function randomColor() {
